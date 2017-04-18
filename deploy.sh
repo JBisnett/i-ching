@@ -6,8 +6,8 @@ git stash
 git checkout develop
 
 # Build new files
-stack exec myblog clean
-stack exec myblog build
+stack exec i-ching clean
+stack exec i-ching build
 
 # Get previous files
 git fetch --all
@@ -27,3 +27,4 @@ git push origin master:master
 git checkout develop
 git branch -D master
 git stash pop
+
